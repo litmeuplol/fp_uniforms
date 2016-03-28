@@ -24,6 +24,7 @@ class CfgVehicles
 		uniformClass="FP_DesDPM";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -43,6 +44,7 @@ class CfgVehicles
 		uniformClass="FP_WoodlandDPM";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -62,6 +64,7 @@ class CfgVehicles
 		uniformClass="FP_MTP";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -81,6 +84,7 @@ class CfgVehicles
 		uniformClass="FP_Flecktarn";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -100,6 +104,7 @@ class CfgVehicles
 		uniformClass="FP_Flecktarn";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -119,6 +124,7 @@ class CfgVehicles
 		uniformClass="FP_Tropentarn";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -138,6 +144,7 @@ class CfgVehicles
 		uniformClass="FP_Flachsteintarn";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -157,6 +164,7 @@ class CfgVehicles
 		uniformClass="FP_CCE";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -176,6 +184,7 @@ class CfgVehicles
 		uniformClass="FP_Daguet";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -184,25 +193,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"FP_UniformsWesternEurope\SkinsUniform\FP_Daguet.paa"
-		};
-	};
-	class FP_Rifleman_Alicam: I_soldier_F
-	{
-		_generalMacro="B_Soldier_F";
-		scope=1;
-		displayName="FP UK AliCam";
-		nakedUniform="U_BasicBody";
-		uniformClass="FP_Alicam";
-                author="FP Mod Team";
-		side = 1;
-		hiddenSelections[]=
-		{
-			"Camo",
-                        "insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"FP_UniformsWesternEurope\SkinsUniform\FP_AliCam.paa"
 		};
 	};
 	class O_officer_F;
@@ -214,6 +204,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_DPMWD";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -373,22 +364,6 @@ class cfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="FP_Rifleman_Daguet";
-			containerClass="Supply40";
-			mass=40;
-		};
-	};
-	class FP_Uniform_Alicam: U_I_CombatUniform
-	{
-		scope=2;
-		displayName="FP UK AliCam";
-		picture="\FP_UniformsWesternEurope\UI\alicamicon.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-                author="FP Mod Team";
-		side = 1;
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			uniformClass="FP_Rifleman_Alicam";
 			containerClass="Supply40";
 			mass=40;
 		};

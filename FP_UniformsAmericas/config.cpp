@@ -2,7 +2,8 @@ class CfgPatches
 {
 	class FP_UniformsAmericas
 	{
-		units[]={
+		units[]=
+		{
 			"B_APC_Wheeled_01_cannon_wd_F"
 		};
 		weapons[]={};
@@ -26,6 +27,7 @@ class CfgVehicles
 		uniformClass="FP_CADPAT";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -45,6 +47,7 @@ class CfgVehicles
 		uniformClass="FP_CADPATAR";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -64,6 +67,7 @@ class CfgVehicles
 		uniformClass="FP_HECU";
                 author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -83,6 +87,7 @@ class CfgVehicles
 		uniformClass="FP_AOR1";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -102,6 +107,7 @@ class CfgVehicles
 		uniformClass="FP_AOR2";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -121,6 +127,7 @@ class CfgVehicles
 		uniformClass="FP_dmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -140,6 +147,7 @@ class CfgVehicles
 		uniformClass="FP_dmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -159,6 +167,7 @@ class CfgVehicles
 		uniformClass="FP_m81marpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -178,6 +187,7 @@ class CfgVehicles
 		uniformClass="FP_marpatm81";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -198,6 +208,7 @@ class CfgVehicles
 		uniformClass="FP_tpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -217,6 +228,7 @@ class CfgVehicles
 		uniformClass="FP_wmarpat";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -236,6 +248,7 @@ class CfgVehicles
 		uniformClass="FP_multicam";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -255,6 +268,7 @@ class CfgVehicles
 		uniformClass="FP_multicamalpine";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -275,6 +289,7 @@ class CfgVehicles
 		uniformClass="FP_multicampcu";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -294,6 +309,7 @@ class CfgVehicles
 		uniformClass="FP_multicamtropic";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -313,6 +329,7 @@ class CfgVehicles
 		uniformClass="FP_wtiger";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -332,6 +349,7 @@ class CfgVehicles
 		uniformClass="FP_ucp";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -351,6 +369,7 @@ class CfgVehicles
 		uniformClass="FP_ucpd";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -370,6 +389,7 @@ class CfgVehicles
 		uniformClass="FP_ucp";
                 author="FP Mod Team (Niko)";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -389,6 +409,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_CCC";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -411,6 +432,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_DCU";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -433,6 +455,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_m81";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -455,6 +478,7 @@ class CfgVehicles
 		uniformClass="FP_Uniform_m81white";
 		author="FP Mod Team";
 		side = 1;
+		scopeCurator = 0;
 		hiddenSelections[]=
 		{
 			"Camo",
@@ -467,6 +491,68 @@ class CfgVehicles
 		hiddenSelectionsMaterials[]=
 		{
 			"FP_UniformsEverywhereElse\Misc\officer.rvmat"
+		};
+	};
+	class CUP_B_USMC_Soldier_02;
+	class FP_Rifleman_DesMARPAT_CUP: CUP_B_USMC_Soldier_02
+	{
+		author="Community Upgrade Project";
+		scope=1;
+		scopeCurator=0;
+		displayName="Soldier";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesDown.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_Sleeves";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatam_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_03;
+	class FP_Rifleman_DesMARPAT_Rolled_CUP: CUP_B_USMC_Soldier_03
+	{
+		displayName="Rifleman";
+		scope=1;
+		scopeCurator=0;
+		author="Community Upgrade Project";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesUp.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_RolledUp";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatam_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_04;
+	class FP_Rifleman_DesMARPAT_Kneepad_CUP: CUP_B_USMC_Soldier_04
+	{
+		author="Community Upgrade Project";
+		scope=1;
+		scopeCurator=0;
+		displayName="Scout";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_Kneepad.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_Kneepad";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatwsfm_co.paa"
+		};
+	};
+	class CUP_B_USMC_Soldier_07;
+	class FP_Rifleman_DesMARPAT_KneepadRolled_CUP: CUP_B_USMC_Soldier_07
+	{
+		displayName="";
+		scope=1;
+		scopeCurator=0;
+		author="Community Upgrade Project";
+		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_SleevesUpKP.p3d";
+		uniformClass="CUP_U_B_USMC_MARPAT_DES_RolledUp";
+		hiddenSelectionsTextures[]=
+		{
+			"FP_UniformsAmericas\SkinsUniform\usmc_officer_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatwsfm_co.paa",
+			"FP_UniformsAmericas\SkinsUniform\usmc_marpatsm_co.paa"
 		};
 	};
 	class B_APC_Wheeled_01_cannon_F;
@@ -834,6 +920,95 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+	class ItemCore;
+	class CUP_U_B_USMC_MARPAT_DES_Sleeves: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_RolledUp: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert Rolled up)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_rollup_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_Rolled_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_Kneepad: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert w/Kneepad)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_Kneepad_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+	class CUP_U_B_USMC_MARPAT_DES_RollUpKneepad: ItemCore
+	{
+		dlc="CUP_Units";
+		author="Community Upgrade Project";
+		scope=2;
+		allowedSlots[]={901};
+		displayName="MARPAT (Desert Roll-Up w/kneepad)";
+		picture="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_u_b_marpat_wdl_officer_ca.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="FP_Rifleman_DesMARPAT_KneepadRolled_CUP";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
     class H_HelmetIA;
 	class FP_Helmet_CADPAT: H_HelmetIA
 	{
@@ -850,14 +1025,6 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP CAN MICH (CADPAT AR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARHelmet.paa"};
-	};
-	class FP_Helmet_DualTex: H_HelmetIA
-	{
-		author = "FP Mod Team";
-		_generalMacro = "H_HelmetIA";
-		scope = 2;
-		displayName = "FP USA MICH (DualTex)";
-		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_DualTexHelmet.paa"};
 	};
 	class FP_Helmet_HECU: H_HelmetIA
 	{
@@ -980,6 +1147,30 @@ class cfgWeapons
 		scope = 2;
 		displayName = "FP CAN Boonie (CADPAT AR)";
 		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\FP_CADPATARBoonie.paa"};
+	};
+	class CUP_H_RACS_Helmet_DPAT;
+	class FP_Helmet_USMCMARPATHelmet: CUP_H_RACS_Helmet_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Headset_DPAT;
+	class FP_Helmet_USMCMARPATHelmet_Headset: CUP_H_RACS_Helmet_Headset_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT/Headset)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
+	};
+	class CUP_H_RACS_Helmet_Goggles_DPAT;
+	class FP_Helmet_USMCMARPATHelmet_Goggles: CUP_H_RACS_Helmet_Goggles_DPAT
+	{
+		author = "FP Mod Team";
+		scope = 2;
+		displayName = "USMC Helmet (Desert MARPAT/Goggles)";
+		hiddenSelectionsTextures[] = {"FP_UniformsAmericas\SkinsHeadgear\usmc_marpatsgb_co.paa"};
 	};
 	class H_mas_gue_HelmetI;
 	class fp_helmet_m1_camo: H_mas_gue_HelmetI
